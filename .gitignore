@@ -1,0 +1,25 @@
+## Hack to ignore compiled binaries
+# Files without extensions in this case
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Unignore all Makefiles
+!Makefile
+
+# Unignore LICENSE file
+!LICENSE
+
+## Compiled MEX files
+*.mexa64
+
+# Ignore all result log files
+*.txt
+
+# Ignore object files
+*.o
